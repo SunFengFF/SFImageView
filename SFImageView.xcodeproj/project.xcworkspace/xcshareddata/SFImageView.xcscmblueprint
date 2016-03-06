@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8A2297F588C11DB5E438F876F8C6B6160F749900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8A2297F588C11DB5E438F876F8C6B6160F749900" : 0,
+    "E83D41F78112905F1EF8182427E43CF5CE0B5178" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15A519CF-D6AD-475B-A900-F443DE629BE6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8A2297F588C11DB5E438F876F8C6B6160F749900" : "SFImageView\/",
+    "E83D41F78112905F1EF8182427E43CF5CE0B5178" : "SFImageView\/SFImageView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SFImageView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SFImageView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFengFF\/SFImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A2297F588C11DB5E438F876F8C6B6160F749900"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SunFengFF\/SFImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E83D41F78112905F1EF8182427E43CF5CE0B5178"
+    }
+  ]
+}

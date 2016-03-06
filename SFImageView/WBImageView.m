@@ -65,6 +65,8 @@
 
 -(WBImageViewItem*)itemAtIndex:(NSInteger)index{
     NSLog(@"...");
+    
+    
    return (WBImageViewItem*)[self viewWithTag:index+1000];
 }
 
