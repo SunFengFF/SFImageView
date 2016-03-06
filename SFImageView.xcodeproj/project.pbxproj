@@ -15,6 +15,11 @@
 		FD8103281C85D7ED004E0683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8103261C85D7ED004E0683 /* LaunchScreen.storyboard */; };
 		FD8103331C85D7ED004E0683 /* SFImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8103321C85D7ED004E0683 /* SFImageViewTests.m */; };
 		FD81033E1C85D7ED004E0683 /* SFImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81033D1C85D7ED004E0683 /* SFImageViewUITests.m */; };
+		FD8103511C85D804004E0683 /* WBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81034C1C85D804004E0683 /* WBImageView.m */; };
+		FD8103521C85D804004E0683 /* WBImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81034E1C85D804004E0683 /* WBImageViewController.m */; };
+		FD8103531C85D804004E0683 /* WBImageViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8103501C85D804004E0683 /* WBImageViewItem.m */; };
+		FD8103571C85D84E004E0683 /* UIView+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8103551C85D84E004E0683 /* UIView+UIViewController.m */; };
+		FD8103581C85D84E004E0683 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8103561C85D84E004E0683 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		FD8103391C85D7ED004E0683 /* SFImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD81033D1C85D7ED004E0683 /* SFImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFImageViewUITests.m; sourceTree = "<group>"; };
 		FD81033F1C85D7ED004E0683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD81034B1C85D804004E0683 /* WBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImageView.h; sourceTree = "<group>"; };
+		FD81034C1C85D804004E0683 /* WBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImageView.m; sourceTree = "<group>"; };
+		FD81034D1C85D804004E0683 /* WBImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImageViewController.h; sourceTree = "<group>"; };
+		FD81034E1C85D804004E0683 /* WBImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImageViewController.m; sourceTree = "<group>"; };
+		FD81034F1C85D804004E0683 /* WBImageViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImageViewItem.h; sourceTree = "<group>"; };
+		FD8103501C85D804004E0683 /* WBImageViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImageViewItem.m; sourceTree = "<group>"; };
+		FD8103541C85D84E004E0683 /* UIView+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewController.h"; sourceTree = "<group>"; };
+		FD8103551C85D84E004E0683 /* UIView+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewController.m"; sourceTree = "<group>"; };
+		FD8103561C85D84E004E0683 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,9 @@
 		FD81030C1C85D7ED004E0683 = {
 			isa = PBXGroup;
 			children = (
+				FD8103541C85D84E004E0683 /* UIView+UIViewController.h */,
+				FD8103551C85D84E004E0683 /* UIView+UIViewController.m */,
+				FD8103561C85D84E004E0683 /* 1.png */,
 				FD8103171C85D7ED004E0683 /* SFImageView */,
 				FD8103311C85D7ED004E0683 /* SFImageViewTests */,
 				FD81033C1C85D7ED004E0683 /* SFImageViewUITests */,
@@ -105,6 +122,12 @@
 				FD81031C1C85D7ED004E0683 /* AppDelegate.m */,
 				FD81031E1C85D7ED004E0683 /* ViewController.h */,
 				FD81031F1C85D7ED004E0683 /* ViewController.m */,
+				FD81034B1C85D804004E0683 /* WBImageView.h */,
+				FD81034C1C85D804004E0683 /* WBImageView.m */,
+				FD81034F1C85D804004E0683 /* WBImageViewItem.h */,
+				FD8103501C85D804004E0683 /* WBImageViewItem.m */,
+				FD81034D1C85D804004E0683 /* WBImageViewController.h */,
+				FD81034E1C85D804004E0683 /* WBImageViewController.m */,
 				FD8103211C85D7ED004E0683 /* Main.storyboard */,
 				FD8103241C85D7ED004E0683 /* Assets.xcassets */,
 				FD8103261C85D7ED004E0683 /* LaunchScreen.storyboard */,
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8103281C85D7ED004E0683 /* LaunchScreen.storyboard in Resources */,
+				FD8103581C85D84E004E0683 /* 1.png in Resources */,
 				FD8103251C85D7ED004E0683 /* Assets.xcassets in Resources */,
 				FD8103231C85D7ED004E0683 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8103531C85D804004E0683 /* WBImageViewItem.m in Sources */,
+				FD8103521C85D804004E0683 /* WBImageViewController.m in Sources */,
 				FD8103201C85D7ED004E0683 /* ViewController.m in Sources */,
 				FD81031D1C85D7ED004E0683 /* AppDelegate.m in Sources */,
 				FD81031A1C85D7ED004E0683 /* main.m in Sources */,
+				FD8103571C85D84E004E0683 /* UIView+UIViewController.m in Sources */,
+				FD8103511C85D804004E0683 /* WBImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

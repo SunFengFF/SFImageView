@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WBImageView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    WBImageView *imageView = [[WBImageView alloc] initWithFrame:CGRectMake(0, 100, 200, 200)];
+    imageView.dataList = @[@"1",@"1",@"1",@"1",@"1",@"1",@"1",@"1"];
+    
+    [self.view addSubview:imageView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
